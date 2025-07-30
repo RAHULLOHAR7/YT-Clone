@@ -20,16 +20,9 @@ A fully functional and responsive **YouTube Clone** built using **HTML, CSS, and
 
 ## 🚀 Demo
 
-[Live Demo](https://your-live-demo-link.com) <!-- Replace with actual hosted link -->
+[Live Demo](https://youtube-clone-javascript.netlify.app/) <!-- Replace with actual hosted link -->
 
 ---
-
-## 🖼️ Screenshot
-
-![YouTube Clone Screenshot](screenshot.png) <!-- Replace with actual screenshot -->
-
----
-
 ## 🛠️ Tech Stack
 
 - **Languages:** HTML, CSS, JavaScript
@@ -57,7 +50,7 @@ youtube-clone/
 1. Clone the repository:
 
 ```bash
-git clone https://github.com/your-username/youtube-clone.git
+git clone https://github.com/RAHULLOHAR7/YT-Clone.git
 cd youtube-clone
 ```
 
@@ -79,9 +72,3 @@ cd youtube-clone
 ## 🧑‍💻 Author
 
 Built with ❤️ by [Rahul Lohar](https://your-portfolio-link.com)
-
----
-
-## 📄 License
-
-This project is licensed under the [MIT License](LICENSE).
