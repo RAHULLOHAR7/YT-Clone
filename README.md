@@ -1,78 +1,84 @@
 
-# 📺 YouTube Clone
+# 🎥 YouTube Clone
 
-A fully responsive **YouTube Clone** built using **React.js**. This project replicates core YouTube features including video browsing, search, embedded player, sidebar navigation, and localStorage-based history/watch later.
+A fully functional and responsive **YouTube Clone** built using **HTML, CSS, and JavaScript**. This project mimics core YouTube features like video search, playback, sidebar navigation, dark mode, and localStorage for Watch Later and History.
 
 ---
 
 ## 📌 Features
 
 - 🔍 Search functionality with voice input
-- 🎥 Embedded video player in modal view
-- 📂 Sidebar with sections: Home, Explore, Subscriptions, Library, History, Watch Later
-- 🌙 Dark mode toggle
-- ➕ Add to Watch Later
-- 🕒 View History
-- 💾 LocalStorage integration
-- 📱 Fully responsive grid layout
-- 📺 Loads videos dynamically from a JSON file
+- 🎬 Embedded video playback in a modal
+- 🌓 Dark/Light mode toggle
+- 📂 Watch Later and History stored using `localStorage`
+- 📱 Fully responsive 3x3 video grid layout
+- 📺 Sidebar with navigation: Home, Explore, Subscriptions, Library, History, Watch Later
+- 🍔 Collapsible sidebar via hamburger menu
+- 🔄 Functional logo reloads the page
 
 ---
 
 ## 🚀 Demo
 
-[Live Demo](https://your-live-link.com) <!-- Replace with your deployment link -->
+[Live Demo](https://your-live-demo-link.com) <!-- Replace with actual hosted link -->
 
 ---
 
 ## 🖼️ Screenshot
 
-![YouTube Clone Screenshot](screenshot.png) <!-- Replace with your actual screenshot path -->
+![YouTube Clone Screenshot](screenshot.png) <!-- Replace with actual screenshot -->
 
 ---
 
 ## 🛠️ Tech Stack
 
-- **Frontend:** React.js, CSS (custom or Tailwind)
-- **State:** useState, useEffect
-- **Storage:** localStorage
+- **Languages:** HTML, CSS, JavaScript
+- **API:** YouTube Data API (optional for real search)
+- **Tools:** Voice Recognition API, `localStorage`
 
 ---
 
-## 📦 Installation
+## 📂 Folder Structure
 
-```bash
-git clone https://github.com/your-username/youtube-clone.git
-cd youtube-clone
-npm install
-npm start
+```text
+youtube-clone/
+├── index.html
+├── global.css
+├── app.js
+├── videos.json
+├── images/
+└── assets/
 ```
 
 ---
 
-## 🔑 Features Explained
+## 📦 How to Use
 
-- **Sidebar:** Collapsible, contains all navigation items.
-- **Search Bar:** Includes voice input support and dynamic search.
-- **Dark Mode:** Toggles dark/light themes with a clean switch.
-- **Video Modal:** Opens selected video in a popup without redirecting.
-- **History/Watch Later:** Saves clicked videos to localStorage and displays in their sections.
-- **Responsive Layout:** Grid-based video display works across devices.
+1. Clone the repository:
+
+```bash
+git clone https://github.com/your-username/youtube-clone.git
+cd youtube-clone
+```
+
+2. Open `index.html` in your browser.
 
 ---
 
-## 💡 Lessons Learned
+## 💡 Features Implemented with JavaScript
 
-- React state and props management
-- Component-based UI structure
-- Working with modals and localStorage
-- Making the UI accessible and responsive
+- DOM manipulation and event listeners
+- Dynamic rendering of video cards from `videos.json`
+- Toggle UI with theme switcher
+- Search bar and voice recognition integration
+- Modal video player using embedded iframe
+- LocalStorage support for Watch Later and History
 
 ---
 
 ## 🧑‍💻 Author
 
-Made with ❤️ by [Rahul Lohar](https://your-portfolio-link.com)
+Built with ❤️ by [Rahul Lohar](https://your-portfolio-link.com)
 
 ---
 
