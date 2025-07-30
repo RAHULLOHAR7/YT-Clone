@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>YouTube Clone</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="global.css" />
+  </head>
+  <body class="dark-mode">
+    <!-- Header -->
+    <header class="header">
+      <div class="left-section">
+        <img
+          class="bars"
+          src="./header thumbnail/hamburger-menu.svg"
+          alt="menu"
+        />
+        <button class="yt-btn" onclick="location.reload()">
+          <img
+            class="ytlogo"
+            src="./header thumbnail/youtube-logo.svg"
+            alt="logo"
+          />
+        </button>
+      </div>
+      <div class="middle-section">
+        <div class="search-wrapper">
+          <input class="search-bar" type="text" placeholder="Search" />
+          <span class="divider">|</span>
+          <button class="search-button">
+            <img
+              class="search-icon"
+              src="./header thumbnail/search.svg"
+              alt="search"
+            />
+          </button>
+        </div>
+        <button class="voice-button">
+          <img
+            class="voice-icon"
+            src="./header thumbnail/voice-search-icon.svg"
+            alt="voice"
+          />
+        </button>
+      </div>
+      <div class="right-section">
+        <img class="upload" src="./header thumbnail/upload.svg" alt="upload" />
+        <img
+          class="ytapp"
+          src="./header thumbnail/youtube-apps.svg"
+          alt="apps"
+        />
+        <img
+          class="notification"
+          src="./header thumbnail/notifications.svg"
+          alt="notifications"
+        />
+        <img class="channel-logo" src="./Password Photo.jpg" alt="user" />
+        <button class="dark-toggle">🌙</button>
+      </div>
+    </header>
+
+    <!-- Content Wrapper -->
+    <div class="content-wrapper">
+      <!-- Sidebar -->
+      <aside class="sidebar">
+        <div class="sidebar-item" data-section="home">
+          <img src="./header thumbnail/home.svg" />
+          <p>Home</p>
+        </div>
+        <div class="sidebar-item" data-section="explore">
+          <img src="./header thumbnail/explore.svg" />
+          <p>Explore</p>
+        </div>
+        <div class="sidebar-item" data-section="subscriptions">
+          <img src="./header thumbnail/subscriptions.svg" />
+          <p>Subscriptions</p>
+        </div>
+        <hr />
+        <div class="sidebar-item" data-section="library">
+          <img src="./header thumbnail/library.svg" />
+          <p>Library</p>
+        </div>
+        <div class="sidebar-item" data-section="history">
+          <img src="./header thumbnail/history.svg" />
+          <p>History</p>
+        </div>
+        <div class="sidebar-item" data-section="watch-later">
+          <img src="./header thumbnail/watch-later.svg" />
+          <p>Watch Later</p>
+        </div>
+      </aside>
+
+      <main class="main-content">
+        <div class="grid"></div>
+      </main>
+    </div>
+
+    <!-- Modal -->
+    <div class="modal hidden">
+      <div class="modal-content">
+        <span class="close-btn">&times;</span>
+        <iframe class="player" frameborder="0" allowfullscreen></iframe>
+        <button class="watch-later-btn">+ Watch Later</button>
+      </div>
+    </div>
+
+    <script src="App.js"></script>
+  </body>
+</html>
